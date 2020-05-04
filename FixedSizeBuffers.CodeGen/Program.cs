@@ -29,7 +29,7 @@ namespace FixedSizeBuffers
     /// </summary>
     /// <typeparam name=""T"">The type of the elements in the buffer</typeparam>
     [StructLayout(LayoutKind.Sequential)]
-    public struct FixedSizeBuffer{length}<T>
+    public struct FixedSizeBuffer{length}<T> : IFixedSizeBuffer<T>
     {{{string.Concat(Enumerable.Range(1, length).Select(GenerateItemField))}
 
         /// <summary>

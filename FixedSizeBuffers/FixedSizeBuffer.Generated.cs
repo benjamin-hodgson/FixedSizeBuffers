@@ -9,7 +9,7 @@ namespace FixedSizeBuffers
     /// </summary>
     /// <typeparam name="T">The type of the elements in the buffer</typeparam>
     [StructLayout(LayoutKind.Sequential)]
-    public struct FixedSizeBuffer2<T>
+    public struct FixedSizeBuffer2<T> : IFixedSizeBuffer<T>
     {
         /// <summary>A slot in the buffer</summary>
         public T Item1;
@@ -70,7 +70,7 @@ namespace FixedSizeBuffers
         /// Call this method when you've finished using the buffer.
         ///
         /// Technically this method is a no-op, but calling it ensures that the
-        ///  buffer is not deallocated before you've finished working with it.
+        /// buffer is not deallocated before you've finished working with it.
         /// </summary>
         [MethodImpl(MethodImplOptions.NoInlining)]
         public void Dispose() { }
@@ -81,7 +81,7 @@ namespace FixedSizeBuffers
     /// </summary>
     /// <typeparam name="T">The type of the elements in the buffer</typeparam>
     [StructLayout(LayoutKind.Sequential)]
-    public struct FixedSizeBuffer4<T>
+    public struct FixedSizeBuffer4<T> : IFixedSizeBuffer<T>
     {
         /// <summary>A slot in the buffer</summary>
         public T Item1;
@@ -148,7 +148,7 @@ namespace FixedSizeBuffers
         /// Call this method when you've finished using the buffer.
         ///
         /// Technically this method is a no-op, but calling it ensures that the
-        ///  buffer is not deallocated before you've finished working with it.
+        /// buffer is not deallocated before you've finished working with it.
         /// </summary>
         [MethodImpl(MethodImplOptions.NoInlining)]
         public void Dispose() { }
@@ -159,7 +159,7 @@ namespace FixedSizeBuffers
     /// </summary>
     /// <typeparam name="T">The type of the elements in the buffer</typeparam>
     [StructLayout(LayoutKind.Sequential)]
-    public struct FixedSizeBuffer8<T>
+    public struct FixedSizeBuffer8<T> : IFixedSizeBuffer<T>
     {
         /// <summary>A slot in the buffer</summary>
         public T Item1;
@@ -238,7 +238,7 @@ namespace FixedSizeBuffers
         /// Call this method when you've finished using the buffer.
         ///
         /// Technically this method is a no-op, but calling it ensures that the
-        ///  buffer is not deallocated before you've finished working with it.
+        /// buffer is not deallocated before you've finished working with it.
         /// </summary>
         [MethodImpl(MethodImplOptions.NoInlining)]
         public void Dispose() { }
@@ -249,7 +249,7 @@ namespace FixedSizeBuffers
     /// </summary>
     /// <typeparam name="T">The type of the elements in the buffer</typeparam>
     [StructLayout(LayoutKind.Sequential)]
-    public struct FixedSizeBuffer16<T>
+    public struct FixedSizeBuffer16<T> : IFixedSizeBuffer<T>
     {
         /// <summary>A slot in the buffer</summary>
         public T Item1;
@@ -352,7 +352,7 @@ namespace FixedSizeBuffers
         /// Call this method when you've finished using the buffer.
         ///
         /// Technically this method is a no-op, but calling it ensures that the
-        ///  buffer is not deallocated before you've finished working with it.
+        /// buffer is not deallocated before you've finished working with it.
         /// </summary>
         [MethodImpl(MethodImplOptions.NoInlining)]
         public void Dispose() { }
@@ -363,7 +363,7 @@ namespace FixedSizeBuffers
     /// </summary>
     /// <typeparam name="T">The type of the elements in the buffer</typeparam>
     [StructLayout(LayoutKind.Sequential)]
-    public struct FixedSizeBuffer32<T>
+    public struct FixedSizeBuffer32<T> : IFixedSizeBuffer<T>
     {
         /// <summary>A slot in the buffer</summary>
         public T Item1;
@@ -514,7 +514,7 @@ namespace FixedSizeBuffers
         /// Call this method when you've finished using the buffer.
         ///
         /// Technically this method is a no-op, but calling it ensures that the
-        ///  buffer is not deallocated before you've finished working with it.
+        /// buffer is not deallocated before you've finished working with it.
         /// </summary>
         [MethodImpl(MethodImplOptions.NoInlining)]
         public void Dispose() { }
@@ -525,7 +525,7 @@ namespace FixedSizeBuffers
     /// </summary>
     /// <typeparam name="T">The type of the elements in the buffer</typeparam>
     [StructLayout(LayoutKind.Sequential)]
-    public struct FixedSizeBuffer64<T>
+    public struct FixedSizeBuffer64<T> : IFixedSizeBuffer<T>
     {
         /// <summary>A slot in the buffer</summary>
         public T Item1;
@@ -772,7 +772,7 @@ namespace FixedSizeBuffers
         /// Call this method when you've finished using the buffer.
         ///
         /// Technically this method is a no-op, but calling it ensures that the
-        ///  buffer is not deallocated before you've finished working with it.
+        /// buffer is not deallocated before you've finished working with it.
         /// </summary>
         [MethodImpl(MethodImplOptions.NoInlining)]
         public void Dispose() { }
@@ -783,7 +783,7 @@ namespace FixedSizeBuffers
     /// </summary>
     /// <typeparam name="T">The type of the elements in the buffer</typeparam>
     [StructLayout(LayoutKind.Sequential)]
-    public struct FixedSizeBuffer128<T>
+    public struct FixedSizeBuffer128<T> : IFixedSizeBuffer<T>
     {
         /// <summary>A slot in the buffer</summary>
         public T Item1;
@@ -1222,7 +1222,7 @@ namespace FixedSizeBuffers
         /// Call this method when you've finished using the buffer.
         ///
         /// Technically this method is a no-op, but calling it ensures that the
-        ///  buffer is not deallocated before you've finished working with it.
+        /// buffer is not deallocated before you've finished working with it.
         /// </summary>
         [MethodImpl(MethodImplOptions.NoInlining)]
         public void Dispose() { }
@@ -1233,7 +1233,7 @@ namespace FixedSizeBuffers
     /// </summary>
     /// <typeparam name="T">The type of the elements in the buffer</typeparam>
     [StructLayout(LayoutKind.Sequential)]
-    public struct FixedSizeBuffer256<T>
+    public struct FixedSizeBuffer256<T> : IFixedSizeBuffer<T>
     {
         /// <summary>A slot in the buffer</summary>
         public T Item1;
@@ -2056,7 +2056,7 @@ namespace FixedSizeBuffers
         /// Call this method when you've finished using the buffer.
         ///
         /// Technically this method is a no-op, but calling it ensures that the
-        ///  buffer is not deallocated before you've finished working with it.
+        /// buffer is not deallocated before you've finished working with it.
         /// </summary>
         [MethodImpl(MethodImplOptions.NoInlining)]
         public void Dispose() { }
@@ -2067,7 +2067,7 @@ namespace FixedSizeBuffers
     /// </summary>
     /// <typeparam name="T">The type of the elements in the buffer</typeparam>
     [StructLayout(LayoutKind.Sequential)]
-    public struct FixedSizeBuffer512<T>
+    public struct FixedSizeBuffer512<T> : IFixedSizeBuffer<T>
     {
         /// <summary>A slot in the buffer</summary>
         public T Item1;
@@ -3658,7 +3658,7 @@ namespace FixedSizeBuffers
         /// Call this method when you've finished using the buffer.
         ///
         /// Technically this method is a no-op, but calling it ensures that the
-        ///  buffer is not deallocated before you've finished working with it.
+        /// buffer is not deallocated before you've finished working with it.
         /// </summary>
         [MethodImpl(MethodImplOptions.NoInlining)]
         public void Dispose() { }
@@ -3669,7 +3669,7 @@ namespace FixedSizeBuffers
     /// </summary>
     /// <typeparam name="T">The type of the elements in the buffer</typeparam>
     [StructLayout(LayoutKind.Sequential)]
-    public struct FixedSizeBuffer1024<T>
+    public struct FixedSizeBuffer1024<T> : IFixedSizeBuffer<T>
     {
         /// <summary>A slot in the buffer</summary>
         public T Item1;
@@ -6796,7 +6796,7 @@ namespace FixedSizeBuffers
         /// Call this method when you've finished using the buffer.
         ///
         /// Technically this method is a no-op, but calling it ensures that the
-        ///  buffer is not deallocated before you've finished working with it.
+        /// buffer is not deallocated before you've finished working with it.
         /// </summary>
         [MethodImpl(MethodImplOptions.NoInlining)]
         public void Dispose() { }
@@ -6807,7 +6807,7 @@ namespace FixedSizeBuffers
     /// </summary>
     /// <typeparam name="T">The type of the elements in the buffer</typeparam>
     [StructLayout(LayoutKind.Sequential)]
-    public struct FixedSizeBuffer2048<T>
+    public struct FixedSizeBuffer2048<T> : IFixedSizeBuffer<T>
     {
         /// <summary>A slot in the buffer</summary>
         public T Item1;
@@ -13006,7 +13006,7 @@ namespace FixedSizeBuffers
         /// Call this method when you've finished using the buffer.
         ///
         /// Technically this method is a no-op, but calling it ensures that the
-        ///  buffer is not deallocated before you've finished working with it.
+        /// buffer is not deallocated before you've finished working with it.
         /// </summary>
         [MethodImpl(MethodImplOptions.NoInlining)]
         public void Dispose() { }
@@ -13017,7 +13017,7 @@ namespace FixedSizeBuffers
     /// </summary>
     /// <typeparam name="T">The type of the elements in the buffer</typeparam>
     [StructLayout(LayoutKind.Sequential)]
-    public struct FixedSizeBuffer4096<T>
+    public struct FixedSizeBuffer4096<T> : IFixedSizeBuffer<T>
     {
         /// <summary>A slot in the buffer</summary>
         public T Item1;
@@ -25360,7 +25360,7 @@ namespace FixedSizeBuffers
         /// Call this method when you've finished using the buffer.
         ///
         /// Technically this method is a no-op, but calling it ensures that the
-        ///  buffer is not deallocated before you've finished working with it.
+        /// buffer is not deallocated before you've finished working with it.
         /// </summary>
         [MethodImpl(MethodImplOptions.NoInlining)]
         public void Dispose() { }
@@ -25371,7 +25371,7 @@ namespace FixedSizeBuffers
     /// </summary>
     /// <typeparam name="T">The type of the elements in the buffer</typeparam>
     [StructLayout(LayoutKind.Sequential)]
-    public struct FixedSizeBuffer8192<T>
+    public struct FixedSizeBuffer8192<T> : IFixedSizeBuffer<T>
     {
         /// <summary>A slot in the buffer</summary>
         public T Item1;
@@ -50002,7 +50002,7 @@ namespace FixedSizeBuffers
         /// Call this method when you've finished using the buffer.
         ///
         /// Technically this method is a no-op, but calling it ensures that the
-        ///  buffer is not deallocated before you've finished working with it.
+        /// buffer is not deallocated before you've finished working with it.
         /// </summary>
         [MethodImpl(MethodImplOptions.NoInlining)]
         public void Dispose() { }
