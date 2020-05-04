@@ -84,7 +84,7 @@ namespace FixedSizeBuffers
         /// Call this method when you've finished using the buffer.
         ///
         /// Technically this method is a no-op, but calling it ensures that the
-        ///  buffer is not deallocated before you've finished working with it.
+        /// buffer is not deallocated before you've finished working with it.
         /// </summary>
         [MethodImpl(MethodImplOptions.NoInlining)]
         public void Dispose() {{ }}
