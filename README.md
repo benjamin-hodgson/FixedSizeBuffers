@@ -36,4 +36,4 @@ Span<int> Bad()
 }
 ```
 
-You _can_ safely pass around spans into buffers which live on the heap --- but if you're doing that you might as well use an array.
+You _can_ safely pass around spans into buffers which live on the heap — but if you're doing that you might as well use an array.
