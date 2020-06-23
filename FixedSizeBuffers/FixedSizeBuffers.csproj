@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Version>0.1.0</Version>
+    <Version>0.2.0</Version>
 
     <Authors>benjamin.hodgson</Authors>
     <Copyright>© Benjamin Hodgson, 2020</Copyright>
@@ -17,6 +17,9 @@
     <LangVersion>8.0</LangVersion>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <Nullable>enable</Nullable>
+    
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\FixedSizeBuffers.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>
