@@ -1,8 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Version>0.2.0</Version>
-
     <Authors>benjamin.hodgson</Authors>
     <Copyright>© Benjamin Hodgson, 2020</Copyright>
     <Description>Generic fixed size buffers.</Description>
@@ -17,6 +15,9 @@
     <LangVersion>8.0</LangVersion>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <Nullable>enable</Nullable>
+    
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>..\FixedSizeBuffers.snk</AssemblyOriginatorKeyFile>
