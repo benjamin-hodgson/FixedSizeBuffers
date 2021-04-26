@@ -8,7 +8,7 @@
 
     <PackageProjectUrl>https://github.com/benjamin-hodgson/FixedSizeBuffers</PackageProjectUrl>
     <RepositoryUrl>https://github.com/benjamin-hodgson/FixedSizeBuffers.git</RepositoryUrl>
-    <PackageLicenseUrl>https://github.com/benjamin-hodgson/FixedSizeBuffers/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
 
     <TargetFramework>netstandard2.1</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
