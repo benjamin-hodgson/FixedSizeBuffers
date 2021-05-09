@@ -123,14 +123,6 @@
         <div></div>
             <h3 id="classes"><a href="#classes">Classes
         </a></h3>
-                <h4><a class="xref" href="FixedSizeBuffers.FixedSizeBufferExtensions.html">FixedSizeBufferExtensions</a></h4>
-                <section><p>Extension methods for fixed size buffers.</p>
-</section>
-                <h4><a class="xref" href="FixedSizeBuffers.WithFixedSizeBuffer-1.html">WithFixedSizeBuffer&lt;T&gt;</a></h4>
-                <section><p>Methods for running a function in the context of a stack-allocated buffer</p>
-</section>
-            <h3 id="structs"><a href="#structs">Structs
-        </a></h3>
                 <h4><a class="xref" href="FixedSizeBuffers.FixedSizeBuffer1024-1.html">FixedSizeBuffer1024&lt;T&gt;</a></h4>
                 <section><p>A fixed size buffer of length 1024.</p>
 </section>
@@ -170,26 +162,30 @@
                 <h4><a class="xref" href="FixedSizeBuffers.FixedSizeBuffer8192-1.html">FixedSizeBuffer8192&lt;T&gt;</a></h4>
                 <section><p>A fixed size buffer of length 8192.</p>
 </section>
+                <h4><a class="xref" href="FixedSizeBuffers.FixedSizeBufferExtensions.html">FixedSizeBufferExtensions</a></h4>
+                <section><p>Extension methods for fixed size buffers.</p>
+</section>
+                <h4><a class="xref" href="FixedSizeBuffers.SpanAction-1.html">SpanAction&lt;T&gt;</a></h4>
+                <section><p>A function which receives a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.span-1">Span&lt;T&gt;</a></p>
+</section>
+                <h4><a class="xref" href="FixedSizeBuffers.SpanAction-2.html">SpanAction&lt;T, U&gt;</a></h4>
+                <section><p>A function which receives a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.span-1">Span&lt;T&gt;</a> and an additional state object.</p>
+</section>
+                <h4><a class="xref" href="FixedSizeBuffers.SpanFunc-2.html">SpanFunc&lt;T, R&gt;</a></h4>
+                <section><p>A function which receives a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.span-1">Span&lt;T&gt;</a> and an additional state object.</p>
+</section>
+                <h4><a class="xref" href="FixedSizeBuffers.SpanFunc-3.html">SpanFunc&lt;T, U, R&gt;</a></h4>
+                <section><p>A function which receives a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.span-1">Span&lt;T&gt;</a> and an additional state object.</p>
+</section>
+                <h4><a class="xref" href="FixedSizeBuffers.WithFixedSizeBuffer-1.html">WithFixedSizeBuffer&lt;T&gt;</a></h4>
+                <section><p>Methods for running a function in the context of a stack-allocated buffer</p>
+</section>
             <h3 id="interfaces"><a href="#interfaces">Interfaces
         </a></h3>
                 <h4><a class="xref" href="FixedSizeBuffers.IFixedSizeBuffer-1.html">IFixedSizeBuffer&lt;T&gt;</a></h4>
                 <section><p>An interface for operations on fixed size buffers.</p>
 <p>NB: You probably don&apos;t want to mention this interface directly (don&apos;t box the buffer!).
 Use it as a type parameter constraint instead (<code>where TBuffer : IFixedSizeBuffer&lt;T&gt;</code>).</p>
-</section>
-            <h3 id="delegates"><a href="#delegates">Delegates
-        </a></h3>
-                <h4><a class="xref" href="FixedSizeBuffers.SpanAction-1.html">SpanAction&lt;T&gt;</a></h4>
-                <section><p>A function which receives a <see cref="!:Span&lt;T>"></see></p>
-</section>
-                <h4><a class="xref" href="FixedSizeBuffers.SpanAction-2.html">SpanAction&lt;T, U&gt;</a></h4>
-                <section><p>A function which receives a <see cref="!:Span&lt;T>"></see> and an additional state object.</p>
-</section>
-                <h4><a class="xref" href="FixedSizeBuffers.SpanFunc-2.html">SpanFunc&lt;T, R&gt;</a></h4>
-                <section><p>A function which receives a <see cref="!:Span&lt;T>"></see> and an additional state object.</p>
-</section>
-                <h4><a class="xref" href="FixedSizeBuffers.SpanFunc-3.html">SpanFunc&lt;T, U, R&gt;</a></h4>
-                <section><p>A function which receives a <see cref="!:Span&lt;T>"></see> and an additional state object.</p>
 </section>
     </article>
 
@@ -205,14 +201,6 @@ Use it as a type parameter constraint instead (<code>where TBuffer : IFixedSizeB
                             <a href="#classes"></a>
 
                             <ul>
-                                    <li><a href="#FixedSizeBuffers_FixedSizeBufferExtensions">FixedSizeBufferExtensions</a></li>
-                                    <li><a href="#FixedSizeBuffers_WithFixedSizeBuffer_1">WithFixedSizeBuffer&lt;T&gt;</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#structs"></a>
-
-                            <ul>
                                     <li><a href="#FixedSizeBuffers_FixedSizeBuffer1024_1">FixedSizeBuffer1024&lt;T&gt;</a></li>
                                     <li><a href="#FixedSizeBuffers_FixedSizeBuffer128_1">FixedSizeBuffer128&lt;T&gt;</a></li>
                                     <li><a href="#FixedSizeBuffers_FixedSizeBuffer16_1">FixedSizeBuffer16&lt;T&gt;</a></li>
@@ -226,6 +214,12 @@ Use it as a type parameter constraint instead (<code>where TBuffer : IFixedSizeB
                                     <li><a href="#FixedSizeBuffers_FixedSizeBuffer64_1">FixedSizeBuffer64&lt;T&gt;</a></li>
                                     <li><a href="#FixedSizeBuffers_FixedSizeBuffer8_1">FixedSizeBuffer8&lt;T&gt;</a></li>
                                     <li><a href="#FixedSizeBuffers_FixedSizeBuffer8192_1">FixedSizeBuffer8192&lt;T&gt;</a></li>
+                                    <li><a href="#FixedSizeBuffers_FixedSizeBufferExtensions">FixedSizeBufferExtensions</a></li>
+                                    <li><a href="#FixedSizeBuffers_SpanAction_1">SpanAction&lt;T&gt;</a></li>
+                                    <li><a href="#FixedSizeBuffers_SpanAction_2">SpanAction&lt;T, U&gt;</a></li>
+                                    <li><a href="#FixedSizeBuffers_SpanFunc_2">SpanFunc&lt;T, R&gt;</a></li>
+                                    <li><a href="#FixedSizeBuffers_SpanFunc_3">SpanFunc&lt;T, U, R&gt;</a></li>
+                                    <li><a href="#FixedSizeBuffers_WithFixedSizeBuffer_1">WithFixedSizeBuffer&lt;T&gt;</a></li>
                             </ul>
                         </li>
                         <li>
@@ -233,16 +227,6 @@ Use it as a type parameter constraint instead (<code>where TBuffer : IFixedSizeB
 
                             <ul>
                                     <li><a href="#FixedSizeBuffers_IFixedSizeBuffer_1">IFixedSizeBuffer&lt;T&gt;</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#delegates"></a>
-
-                            <ul>
-                                    <li><a href="#FixedSizeBuffers_SpanAction_1">SpanAction&lt;T&gt;</a></li>
-                                    <li><a href="#FixedSizeBuffers_SpanAction_2">SpanAction&lt;T, U&gt;</a></li>
-                                    <li><a href="#FixedSizeBuffers_SpanFunc_2">SpanFunc&lt;T, R&gt;</a></li>
-                                    <li><a href="#FixedSizeBuffers_SpanFunc_3">SpanFunc&lt;T, U, R&gt;</a></li>
                             </ul>
                         </li>
                 </ul>

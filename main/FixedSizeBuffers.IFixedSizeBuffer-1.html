@@ -148,7 +148,7 @@ Use it as a type parameter constraint instead (<code>where TBuffer : IFixedSizeB
             <h3 id="properties"><a href="#properties">Properties
         </a></h3>
 
-                <a href="https://github.com/benjamin-hodgson/FixedSizeBuffers/blob/main/FixedSizeBuffers/IFixedSizeBuffer.cs/#L20">View Source</a>
+                
                 <a id="FixedSizeBuffers_IFixedSizeBuffer_1_Item_"></a>
                 <h4 id="FixedSizeBuffers_IFixedSizeBuffer_1_Item_System_Int32_"><a href="#FixedSizeBuffers_IFixedSizeBuffer_1_Item_System_Int32_">Item[Int32]</a></h4>
                 <div><p>Gets or sets the element at offset <code data-dev-comment-type="paramref" class="paramref">index</code>.</p>
@@ -199,16 +199,32 @@ Use it as a type parameter constraint instead (<code>where TBuffer : IFixedSizeB
         
         
                         
+                    <h5>Exceptions</h5>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Type</th>
+                                <th>Condition</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><p><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></p></td>
+                                <td><p>The index was outside the bounds of the buffer</p>
+</td>
+                            </tr>
+                        </tbody>
+                    </table>
         
             <h3 id="methods"><a href="#methods">Methods
         </a></h3>
 
-                <a href="https://github.com/benjamin-hodgson/FixedSizeBuffers/blob/main/FixedSizeBuffers/IFixedSizeBuffer.cs/#L38">View Source</a>
+                
                 <a id="FixedSizeBuffers_IFixedSizeBuffer_1_AsReadOnlySpan_"></a>
                 <h4 id="FixedSizeBuffers_IFixedSizeBuffer_1_AsReadOnlySpan"><a href="#FixedSizeBuffers_IFixedSizeBuffer_1_AsReadOnlySpan">AsReadOnlySpan()</a></h4>
-                <div><p>Returns a <see cref="!:ReadOnlySpan&lt;T>"></see> representing the buffer.</p>
+                <div><p>Returns a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.readonlyspan-1">ReadOnlySpan&lt;T&gt;</a> representing the buffer.</p>
 <p>This method is <strong>unsafe</strong>.
-You must ensure the <see cref="!:ReadOnlySpan&lt;T>"></see> does not outlive the buffer itself.</p>
+You must ensure the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.readonlyspan-1">ReadOnlySpan&lt;T&gt;</a> does not outlive the buffer itself.</p>
 </div>
                 <h5>Declaration</h5>
                     <pre><code class="lang-csharp hljs">ReadOnlySpan&lt;T&gt; AsReadOnlySpan()</code></pre>
@@ -224,8 +240,8 @@ You must ensure the <see cref="!:ReadOnlySpan&lt;T>"></see> does not outlive the
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td><p><span class="xref">ReadOnlySpan</span>&lt;T&gt;</p></td>
-                                    <td><p>A <see cref="!:ReadOnlySpan&lt;T>"></see> representing the buffer.</p>
+                                    <td><p><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.readonlyspan-1">ReadOnlySpan</a>&lt;T&gt;</p></td>
+                                    <td><p>A <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.readonlyspan-1">ReadOnlySpan&lt;T&gt;</a> representing the buffer.</p>
 </td>
                                 </tr>
                             </tbody>
@@ -239,12 +255,12 @@ You must ensure the <see cref="!:ReadOnlySpan&lt;T>"></see> does not outlive the
         
                         
         
-                <a href="https://github.com/benjamin-hodgson/FixedSizeBuffers/blob/main/FixedSizeBuffers/IFixedSizeBuffer.cs/#L29">View Source</a>
+                
                 <a id="FixedSizeBuffers_IFixedSizeBuffer_1_AsSpan_"></a>
                 <h4 id="FixedSizeBuffers_IFixedSizeBuffer_1_AsSpan"><a href="#FixedSizeBuffers_IFixedSizeBuffer_1_AsSpan">AsSpan()</a></h4>
-                <div><p>Returns a <see cref="!:Span&lt;T>"></see> representing the buffer.</p>
+                <div><p>Returns a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.span-1">Span&lt;T&gt;</a> representing the buffer.</p>
 <p>This method is <strong>unsafe</strong>.
-You must ensure the <see cref="!:Span&lt;T>"></see> does not outlive the buffer itself.</p>
+You must ensure the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.span-1">Span&lt;T&gt;</a> does not outlive the buffer itself.</p>
 </div>
                 <h5>Declaration</h5>
                     <pre><code class="lang-csharp hljs">Span&lt;T&gt; AsSpan()</code></pre>
@@ -260,8 +276,8 @@ You must ensure the <see cref="!:Span&lt;T>"></see> does not outlive the buffer 
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td><p><span class="xref">Span</span>&lt;T&gt;</p></td>
-                                    <td><p>A <see cref="!:Span&lt;T>"></see> representing the buffer.</p>
+                                    <td><p><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.span-1">Span</a>&lt;T&gt;</p></td>
+                                    <td><p>A <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.span-1">Span&lt;T&gt;</a> representing the buffer.</p>
 </td>
                                 </tr>
                             </tbody>
