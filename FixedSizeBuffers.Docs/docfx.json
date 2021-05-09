@@ -4,7 +4,7 @@
         "src": [
           {
             "files": [
-              "FixedSizeBuffers/FixedSizeBuffers.csproj"
+              "FixedSizeBuffers/bin/Release/net5.0/FixedSizeBuffers.dll"
             ],
             "src": ".."
           }
