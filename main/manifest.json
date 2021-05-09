@@ -1,0 +1,317 @@
+{
+  "homepages": [],
+  "source_base_path": "/github/workspace/FixedSizeBuffers.Docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.FixedSizeBuffer1024-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.FixedSizeBuffer1024-1.html",
+          "hash": "kkrqSnvSgMcusaS4U8DTIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.FixedSizeBuffer128-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.FixedSizeBuffer128-1.html",
+          "hash": "AhEiA/2XKA5FX2BKwq/BzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.FixedSizeBuffer16-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.FixedSizeBuffer16-1.html",
+          "hash": "2utgORqoFarpojvocwQ1+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.FixedSizeBuffer2-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.FixedSizeBuffer2-1.html",
+          "hash": "PodlA447keFOPaEBqLMOVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.FixedSizeBuffer2048-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.FixedSizeBuffer2048-1.html",
+          "hash": "yaWCotDPyr+qhGdWFe9cEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.FixedSizeBuffer256-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.FixedSizeBuffer256-1.html",
+          "hash": "+WD4L/qny9Nsb2mP9460Iw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.FixedSizeBuffer32-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.FixedSizeBuffer32-1.html",
+          "hash": "xCeLtztIGKOMBvkQMrpQgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.FixedSizeBuffer4-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.FixedSizeBuffer4-1.html",
+          "hash": "N3GkdPfs4+n2d1cOoJTtkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.FixedSizeBuffer4096-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.FixedSizeBuffer4096-1.html",
+          "hash": "FDwbTMrHNdDZBCwl6GwCVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.FixedSizeBuffer512-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.FixedSizeBuffer512-1.html",
+          "hash": "LZoDczUEHqI3YP9npAIviA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.FixedSizeBuffer64-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.FixedSizeBuffer64-1.html",
+          "hash": "yw5nq4X6wgdszReu7elv8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.FixedSizeBuffer8-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.FixedSizeBuffer8-1.html",
+          "hash": "In2IeETHh8o1la1VQKK8RA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.FixedSizeBuffer8192-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.FixedSizeBuffer8192-1.html",
+          "hash": "olKIxx0v6gYmHWXW0/vfCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.FixedSizeBufferExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.FixedSizeBufferExtensions.html",
+          "hash": "+Fv1eXPGEm0xwBttk/d/0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.IFixedSizeBuffer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.IFixedSizeBuffer-1.html",
+          "hash": "acrbwWriN0i7okDICnTGdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.SpanAction-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.SpanAction-1.html",
+          "hash": "XAU5SqRddWSREa75dNVZ9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.SpanAction-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.SpanAction-2.html",
+          "hash": "ncogxmCZaOZxji1ZSnxtZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.SpanFunc-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.SpanFunc-2.html",
+          "hash": "t3MP6/ln9mPBROVreiupFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.SpanFunc-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.SpanFunc-3.html",
+          "hash": "kWoAJPbBpZW2dNCjfCn80g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.WithFixedSizeBuffer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.WithFixedSizeBuffer-1.html",
+          "hash": "u0E4B7oAoghcX34skglUzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.html",
+          "hash": "p37dPCHSWUuYbNtYGlM7LQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 1,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 21,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
