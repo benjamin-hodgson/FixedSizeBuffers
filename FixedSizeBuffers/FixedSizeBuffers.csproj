@@ -10,7 +10,7 @@
     <RepositoryUrl>https://github.com/benjamin-hodgson/FixedSizeBuffers.git</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
 
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFrameworks>net5.0;netcoreapp3.1;netstandard2.1</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <LangVersion>8.0</LangVersion>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>

@@ -122,5 +122,110 @@ namespace FixedSizeBuffers.Tests
                 Assert.Equal(456, span[15]);
             }
         }
+
+        [Fact]
+        public void TestWithFixedSizeBuffer_SpanAction1()
+        {
+            void Test(int size)
+            {
+                var length = -1;
+                WithFixedSizeBuffer<int>.Do(size, span => { length = span.Length; });
+                Assert.Equal(size, length);
+            }
+            Test(0);
+            Test(1);
+            Test(2);
+            Test(3);
+            Test(4);
+            Test(5);
+            Test(6);
+            Test(7);
+            Test(8);
+            Test(9);
+            Test(16);
+            Test(32);
+            Test(8192);
+        }
+
+        [Fact]
+        public void TestWithFixedSizeBuffer_SpanAction2()
+        {
+            void Test(int size)
+            {
+                var length = -1;
+                var arg = -1;
+                WithFixedSizeBuffer<int>.Do(
+                    size,
+                    123,
+                    (span, x) =>
+                    {
+                        length = span.Length;
+                        arg = x;
+                    }
+                );
+                Assert.Equal(size, length);
+                Assert.Equal(123, arg);
+            }
+            Test(0);
+            Test(1);
+            Test(2);
+            Test(3);
+            Test(4);
+            Test(5);
+            Test(6);
+            Test(7);
+            Test(8);
+            Test(9);
+            Test(16);
+            Test(32);
+            Test(8192);
+        }
+
+        [Fact]
+        public void TestWithFixedSizeBuffer_SpanFunc1()
+        {
+            void Test(int size)
+            {
+                var length = WithFixedSizeBuffer<int>.Do(size, span => span.Length);
+                Assert.Equal(size, length);
+            }
+            Test(0);
+            Test(1);
+            Test(2);
+            Test(3);
+            Test(4);
+            Test(5);
+            Test(6);
+            Test(7);
+            Test(8);
+            Test(9);
+            Test(16);
+            Test(32);
+            Test(8192);
+        }
+
+        [Fact]
+        public void TestWithFixedSizeBuffer_SpanFunc2()
+        {
+            void Test(int size)
+            {
+                var (length, arg) = WithFixedSizeBuffer<int>.Do(size, 123, (span, x) => (span.Length, x));
+                Assert.Equal(size, length);
+                Assert.Equal(123, arg);
+            }
+            Test(0);
+            Test(1);
+            Test(2);
+            Test(3);
+            Test(4);
+            Test(5);
+            Test(6);
+            Test(7);
+            Test(8);
+            Test(9);
+            Test(16);
+            Test(32);
+            Test(8192);
+        }
     }
 }
