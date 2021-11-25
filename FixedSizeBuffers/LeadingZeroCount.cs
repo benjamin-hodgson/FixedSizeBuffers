@@ -1,8 +1,8 @@
 using System.Runtime.CompilerServices;
-#if NETCOREAPP3_1
+#if NETCOREAPP3_1_OR_GREATER
 using System.Runtime.Intrinsics.X86;
 #endif
-#if NET5_0
+#if NET5_0_OR_GREATER
 using System.Runtime.Intrinsics.Arm;
 #endif
 
@@ -13,13 +13,13 @@ namespace FixedSizeBuffers
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static int CountLeadingZeros(int value)
         {
-#if NETCOREAPP3_1
+#if NETCOREAPP3_1_OR_GREATER
             if (Lzcnt.IsSupported)
             {
                 return (int)Lzcnt.LeadingZeroCount((uint)value);
             }
 #endif
-#if NET5_0
+#if NET5_0_OR_GREATER
             if (ArmBase.IsSupported)
             {
                 return ArmBase.LeadingZeroCount(value);
