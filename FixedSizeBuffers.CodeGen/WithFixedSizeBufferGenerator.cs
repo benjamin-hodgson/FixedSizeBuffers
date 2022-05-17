@@ -1,12 +1,12 @@
 using System;
 using System.Linq;
 
-namespace FixedSizeBuffers.CodeGen
+namespace FixedSizeBuffers.CodeGen;
+
+internal static class WithFixedSizeBufferGenerator
 {
-    static class WithFixedSizeBufferGenerator
-    {
-        public static string GenerateWithFixedSizeBuffer()
-            => @$"using System;
+    public static string GenerateWithFixedSizeBuffer()
+        => @$"using System;
 using System.Runtime.InteropServices;
 
 namespace FixedSizeBuffers
@@ -184,11 +184,11 @@ namespace FixedSizeBuffers
 }}
 ";
 
-        private static string GenerateSpanAction1Case(int number)
-        {
-            var lastPow = (int)Math.Pow(2, number - 1);
-            var pow = (int)Math.Pow(2, number);
-            return @$"
+    private static string GenerateSpanAction1Case(int number)
+    {
+        var lastPow = (int)Math.Pow(2, number - 1);
+        var pow = (int)Math.Pow(2, number);
+        return @$"
                 case {32 - number}:  // {lastPow} < size <= {pow}
                 {{
                     static void Go(int size, SpanAction<T> a)
@@ -199,12 +199,12 @@ namespace FixedSizeBuffers
                     Go(size, action);
                     return;
                 }}";
-        }
-        private static string GenerateSpanAction2Case(int number)
-        {
-            var lastPow = (int)Math.Pow(2, number - 1);
-            var pow = (int)Math.Pow(2, number);
-            return @$"
+    }
+    private static string GenerateSpanAction2Case(int number)
+    {
+        var lastPow = (int)Math.Pow(2, number - 1);
+        var pow = (int)Math.Pow(2, number);
+        return @$"
                 case {32 - number}:  // {lastPow} < size <= {pow}
                 {{
                     static void Go(int size, SpanAction<T, U> a, U z)
@@ -215,12 +215,12 @@ namespace FixedSizeBuffers
                     Go(size, action, arg);
                     return;
                 }}";
-        }
-        private static string GenerateSpanFunc1Case(int number)
-        {
-            var lastPow = (int)Math.Pow(2, number - 1);
-            var pow = (int)Math.Pow(2, number);
-            return @$"
+    }
+    private static string GenerateSpanFunc1Case(int number)
+    {
+        var lastPow = (int)Math.Pow(2, number - 1);
+        var pow = (int)Math.Pow(2, number);
+        return @$"
                 case {32 - number}:  // {lastPow} < size <= {pow}
                 {{
                     static R Go(int size, SpanFunc<T, R> f)
@@ -230,12 +230,12 @@ namespace FixedSizeBuffers
                     }}
                     return Go(size, func);
                 }}";
-        }
-        private static string GenerateSpanFunc2Case(int number)
-        {
-            var lastPow = (int)Math.Pow(2, number - 1);
-            var pow = (int)Math.Pow(2, number);
-            return @$"
+    }
+    private static string GenerateSpanFunc2Case(int number)
+    {
+        var lastPow = (int)Math.Pow(2, number - 1);
+        var pow = (int)Math.Pow(2, number);
+        return @$"
                 case {32 - number}:  // {lastPow} < size <= {pow}
                 {{
                     static R Go(int size, SpanFunc<T, U, R> f, U z)
@@ -245,6 +245,5 @@ namespace FixedSizeBuffers
                     }}
                     return Go(size, func, arg);
                 }}";
-        }
     }
 }

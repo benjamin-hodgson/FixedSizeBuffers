@@ -27,7 +27,7 @@ namespace FixedSizeBuffers
 #endif
             return CountLeadingZeros_Fallback(value);
         }
-        
+
         [MethodImpl(MethodImplOptions.NoInlining)]
         private static int CountLeadingZeros_Fallback(int value)
         {

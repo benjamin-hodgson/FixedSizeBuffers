@@ -18,7 +18,7 @@ namespace FixedSizeBuffers
         /// <exception cref="ArgumentOutOfRangeException">The index was outside the bounds of the buffer</exception>
         /// <returns>The element at offset <paramref name="index"/>.</returns>
         T this[int index] { get; set; }
-        
+
         /// <summary>
         /// Returns a <see cref="Span{T}"/> representing the buffer.
         ///
@@ -27,7 +27,7 @@ namespace FixedSizeBuffers
         /// </summary>
         /// <returns>A <see cref="Span{T}"/> representing the buffer.</returns>
         Span<T> AsSpan();
-        
+
         /// <summary>
         /// Returns a <see cref="ReadOnlySpan{T}"/> representing the buffer.
         ///

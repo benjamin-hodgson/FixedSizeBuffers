@@ -1,12 +1,12 @@
 using System;
 using System.Linq;
 
-namespace FixedSizeBuffers.CodeGen
+namespace FixedSizeBuffers.CodeGen;
+
+internal static class FixedSizeBufferExtensionsGenerator
 {
-    static class FixedSizeBufferExtensionsGenerator
-    {
-        public static string GenerateFixedSizeBufferExtensions()
-            => $@"using System.Runtime.CompilerServices;
+    public static string GenerateFixedSizeBufferExtensions()
+        => $@"using System.Runtime.CompilerServices;
 
 namespace FixedSizeBuffers
 {{
@@ -17,8 +17,8 @@ namespace FixedSizeBuffers
 }}
 ";
 
-        private static string GenerateItemRefMethod(int length)
-            => $@"
+    private static string GenerateItemRefMethod(int length)
+        => $@"
         /// <summary>Returns a reference to the item at offset <paramref name=""index""/>.</summary>
         /// <typeparam name=""T"">The type of the elements in the buffer</typeparam>
         /// <param name=""buffer"">The buffer</param>
@@ -34,5 +34,4 @@ namespace FixedSizeBuffers
             return ref Unsafe.Add(ref buffer.Item1, index);
         }}
 ";
-    }
 }

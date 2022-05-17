@@ -1,12 +1,12 @@
 using System;
 using System.Linq;
 
-namespace FixedSizeBuffers.CodeGen
+namespace FixedSizeBuffers.CodeGen;
+
+internal static class FixedSizeBufferGenerator
 {
-    static class FixedSizeBufferGenerator
-    {
-        public static string GenerateFixedSizeBuffers()
-            => $@"using System;
+    public static string GenerateFixedSizeBuffers()
+        => $@"using System;
 using System.Runtime.InteropServices;
 using System.Runtime.CompilerServices;
 
@@ -15,8 +15,8 @@ namespace FixedSizeBuffers
 }}
 ";
 
-        private static string GenerateFixedStruct(int length)
-            => $@"
+    private static string GenerateFixedStruct(int length)
+        => $@"
     /// <summary>
     /// A fixed size buffer of length {length}.
     /// </summary>
@@ -83,10 +83,9 @@ namespace FixedSizeBuffers
         public void Dispose() {{ }}
     }}
 ";
-        private static string GenerateItemField(int n)
-        => $@"
+    private static string GenerateItemField(int n)
+    => $@"
         /// <summary>A slot in the buffer</summary>
         public T Item{n};
 ";
-    }
 }
