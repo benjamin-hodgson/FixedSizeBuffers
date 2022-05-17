@@ -1,30 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <Authors>benjamin.hodgson</Authors>
-    <Copyright>© Benjamin Hodgson, 2020</Copyright>
-    <Description>Generic fixed size buffers.</Description>
-    <PackageTags>buffer;stackalloc;fixed;managed;span</PackageTags>
+    <PropertyGroup>
+        <TargetFrameworks>net5.0;netcoreapp3.1;netstandard2.1</TargetFrameworks>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <LangVersion>8.0</LangVersion>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
 
-    <PackageProjectUrl>https://github.com/benjamin-hodgson/FixedSizeBuffers</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/benjamin-hodgson/FixedSizeBuffers.git</RepositoryUrl>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-
-    <TargetFrameworks>net5.0;netcoreapp3.1;netstandard2.1</TargetFrameworks>
-    <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <LangVersion>8.0</LangVersion>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <Nullable>enable</Nullable>
-    
-    <IncludeSymbols>true</IncludeSymbols>
-    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    
-    <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>..\FixedSizeBuffers.snk</AssemblyOriginatorKeyFile>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="4.7.1" />
-  </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="System.Runtime.CompilerServices.Unsafe" />
+    </ItemGroup>
 
 </Project>
