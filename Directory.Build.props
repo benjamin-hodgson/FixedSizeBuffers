@@ -19,5 +19,8 @@
 
         <Nullable>enable</Nullable>
         <NoWarn>$(NoWarn);NU1507</NoWarn>
+        <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+        <AnalysisMode>all</AnalysisMode>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     </PropertyGroup>
 </Project>
