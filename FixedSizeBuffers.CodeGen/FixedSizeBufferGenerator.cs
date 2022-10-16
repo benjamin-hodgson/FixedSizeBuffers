@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 using System.Runtime.CompilerServices;
 
 namespace FixedSizeBuffers
-{{{string.Concat(Enumerable.Range(1, 13).Select(n => (int)Math.Pow(2, (double)n)).Select(GenerateFixedStruct))}
+{{{string.Concat(Enumerable.Range(1, 13).Select(n => (int)Math.Pow(2, n)).Select(GenerateFixedStruct))}
 }}
 ";
 
@@ -62,7 +62,7 @@ namespace FixedSizeBuffers
         /// <returns>A <see cref=""Span{{T}}""/> representing the buffer.</returns>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Span<T> AsSpan() => MemoryMarshal.CreateSpan(ref Item1, {length});
-        
+
         /// <summary>
         /// Returns a <see cref=""ReadOnlySpan{{T}}""/> representing the buffer.
         ///
@@ -83,6 +83,7 @@ namespace FixedSizeBuffers
         public void Dispose() {{ }}
     }}
 ";
+
     private static string GenerateItemField(int n)
     => $@"
         /// <summary>A slot in the buffer</summary>

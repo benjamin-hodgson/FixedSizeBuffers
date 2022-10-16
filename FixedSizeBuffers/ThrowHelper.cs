@@ -5,8 +5,15 @@ namespace FixedSizeBuffers
 {
     internal static class ThrowHelper
     {
-        internal static void ThrowArgumentOutOfRangeException_Index() { throw CreateArgumentOutOfRangeException_Index(); }
+        internal static void ThrowArgumentOutOfRangeException_Index()
+        {
+            throw CreateArgumentOutOfRangeException_Index();
+        }
+
         [MethodImpl(MethodImplOptions.NoInlining)]
-        private static Exception CreateArgumentOutOfRangeException_Index() { return new ArgumentOutOfRangeException("index"); }
+        private static Exception CreateArgumentOutOfRangeException_Index()
+        {
+            return new ArgumentOutOfRangeException("index");
+        }
     }
 }

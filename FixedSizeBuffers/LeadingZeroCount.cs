@@ -38,6 +38,7 @@ namespace FixedSizeBuffers
                 count++;
                 mask >>= 1;
             }
+
             return count;
         }
     }

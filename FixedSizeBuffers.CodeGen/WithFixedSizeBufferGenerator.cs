@@ -18,7 +18,7 @@ namespace FixedSizeBuffers
         /// <summary>
         /// Stack-allocate a buffer with <paramref name=""size""/> elements,
         /// and pass it to <paramref name=""action""/>.
-        /// 
+        ///
         /// This method is <strong>unsafe</strong>.
         /// You must be careful not to use the <see cref=""Span{{T}}""/>
         /// after <paramref name=""action""/> has returned.
@@ -58,7 +58,7 @@ namespace FixedSizeBuffers
         /// <summary>
         /// Stack-allocate a buffer with <paramref name=""size""/> elements,
         /// and pass it to <paramref name=""action""/>.
-        /// 
+        ///
         /// This method is <strong>unsafe</strong>.
         /// You must be careful not to use the <see cref=""Span{{T}}""/>
         /// after <paramref name=""action""/> has returned.
@@ -99,7 +99,7 @@ namespace FixedSizeBuffers
         /// <summary>
         /// Stack-allocate a buffer with <paramref name=""size""/> elements,
         /// and pass it to <paramref name=""func""/>.
-        /// 
+        ///
         /// This method is <strong>unsafe</strong>.
         /// You must be careful not to use the <see cref=""Span{{T}}""/>
         /// after <paramref name=""func""/> has returned.
@@ -141,7 +141,7 @@ namespace FixedSizeBuffers
         /// <summary>
         /// Stack-allocate a buffer with <paramref name=""size""/> elements,
         /// and pass it to <paramref name=""func""/>.
-        /// 
+        ///
         /// This method is <strong>unsafe</strong>.
         /// You must be careful not to use the <see cref=""Span{{T}}""/>
         /// after <paramref name=""func""/> has returned.
@@ -200,6 +200,7 @@ namespace FixedSizeBuffers
                     return;
                 }}";
     }
+
     private static string GenerateSpanAction2Case(int number)
     {
         var lastPow = (int)Math.Pow(2, number - 1);
@@ -216,6 +217,7 @@ namespace FixedSizeBuffers
                     return;
                 }}";
     }
+
     private static string GenerateSpanFunc1Case(int number)
     {
         var lastPow = (int)Math.Pow(2, number - 1);
@@ -231,6 +233,7 @@ namespace FixedSizeBuffers
                     return Go(size, func);
                 }}";
     }
+
     private static string GenerateSpanFunc2Case(int number)
     {
         var lastPow = (int)Math.Pow(2, number - 1);
