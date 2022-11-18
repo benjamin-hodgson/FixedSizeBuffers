@@ -5,6 +5,9 @@
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <LangVersion>8.0</LangVersion>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+
+        <!-- NETSDK1138 is "The target framework 'net5.0' is out of support". That's OK since this is a library -->
+        <NoWarn>$(NoWarn);NETSDK1138</NoWarn>
     </PropertyGroup>
 
     <ItemGroup>
