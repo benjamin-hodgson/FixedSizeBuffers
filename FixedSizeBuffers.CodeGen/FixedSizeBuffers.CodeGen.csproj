@@ -4,7 +4,7 @@
         <OutputType>exe</OutputType>
         <TargetFrameworks>net7.0</TargetFrameworks>
         <IsPackable>false</IsPackable>
-        <NoWarn>$(NoWarn);SA0001</NoWarn>
+        <NoWarn>$(NoWarn);SA0001;CA1852</NoWarn>
     </PropertyGroup>
 
 </Project>
