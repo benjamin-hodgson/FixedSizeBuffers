@@ -4,6 +4,7 @@
         <OutputType>exe</OutputType>
         <TargetFrameworks>net7.0</TargetFrameworks>
         <IsPackable>false</IsPackable>
+        <!-- CA1852: workaround for https://github.com/dotnet/roslyn-analyzers/issues/6141 -->
         <NoWarn>$(NoWarn);SA0001;CA1852</NoWarn>
     </PropertyGroup>
 
