@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FixedSizeBuffers.CodeGen", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FixedSizeBuffers.Tests", "FixedSizeBuffers.Tests\FixedSizeBuffers.Tests.csproj", "{6AE38EA1-8456-4C47-BA02-9A1382B30DB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FixedSizeBuffers.Docs", "FixedSizeBuffers.Docs\FixedSizeBuffers.Docs.proj", "{6EB58E7C-0C60-4B4C-B76F-37A3AEC88FD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +60,17 @@ Global
 		{6AE38EA1-8456-4C47-BA02-9A1382B30DB2}.Release|x64.Build.0 = Release|Any CPU
 		{6AE38EA1-8456-4C47-BA02-9A1382B30DB2}.Release|x86.ActiveCfg = Release|Any CPU
 		{6AE38EA1-8456-4C47-BA02-9A1382B30DB2}.Release|x86.Build.0 = Release|Any CPU
+		{6EB58E7C-0C60-4B4C-B76F-37A3AEC88FD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB58E7C-0C60-4B4C-B76F-37A3AEC88FD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB58E7C-0C60-4B4C-B76F-37A3AEC88FD7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6EB58E7C-0C60-4B4C-B76F-37A3AEC88FD7}.Debug|x64.Build.0 = Debug|Any CPU
+		{6EB58E7C-0C60-4B4C-B76F-37A3AEC88FD7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6EB58E7C-0C60-4B4C-B76F-37A3AEC88FD7}.Debug|x86.Build.0 = Debug|Any CPU
+		{6EB58E7C-0C60-4B4C-B76F-37A3AEC88FD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB58E7C-0C60-4B4C-B76F-37A3AEC88FD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EB58E7C-0C60-4B4C-B76F-37A3AEC88FD7}.Release|x64.ActiveCfg = Release|Any CPU
+		{6EB58E7C-0C60-4B4C-B76F-37A3AEC88FD7}.Release|x64.Build.0 = Release|Any CPU
+		{6EB58E7C-0C60-4B4C-B76F-37A3AEC88FD7}.Release|x86.ActiveCfg = Release|Any CPU
+		{6EB58E7C-0C60-4B4C-B76F-37A3AEC88FD7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
