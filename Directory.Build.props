@@ -9,6 +9,7 @@
         <RepositoryUrl>https://github.com/benjamin-hodgson/FixedSizeBuffers.git</RepositoryUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
 
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <AssemblyOriginatorKeyFile>$(MSBuildThisFileDirectory)FixedSizeBuffers.snk</AssemblyOriginatorKeyFile>
 
         <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
