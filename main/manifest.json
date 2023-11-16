@@ -1,6 +1,5 @@
 {
-  "homepages": [],
-  "source_base_path": "/home/runner/work/FixedSizeBuffers/FixedSizeBuffers/FixedSizeBuffers.Docs/obj/Release",
+  "source_base_path": "/home/runner/work/FixedSizeBuffers/FixedSizeBuffers/artifacts/obj/FixedSizeBuffers.Docs/release",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -232,7 +231,6 @@
       "version": ""
     }
   ],
-  "version_info": {},
   "groups": [
     {
       "xrefmap": "xrefmap.yml"
