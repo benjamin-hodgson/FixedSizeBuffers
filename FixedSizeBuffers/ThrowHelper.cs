@@ -11,7 +11,7 @@ namespace FixedSizeBuffers
         }
 
         [MethodImpl(MethodImplOptions.NoInlining)]
-        private static Exception CreateArgumentOutOfRangeException_Index()
+        private static ArgumentOutOfRangeException CreateArgumentOutOfRangeException_Index()
         {
             return new ArgumentOutOfRangeException("index");
         }
