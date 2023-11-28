@@ -1,0 +1,239 @@
+{
+  "source_base_path": "/home/runner/work/FixedSizeBuffers/FixedSizeBuffers/artifacts/obj/FixedSizeBuffers.Docs/release",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.FixedSizeBuffer1024-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.FixedSizeBuffer1024-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.FixedSizeBuffer128-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.FixedSizeBuffer128-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.FixedSizeBuffer16-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.FixedSizeBuffer16-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.FixedSizeBuffer2-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.FixedSizeBuffer2-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.FixedSizeBuffer2048-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.FixedSizeBuffer2048-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.FixedSizeBuffer256-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.FixedSizeBuffer256-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.FixedSizeBuffer32-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.FixedSizeBuffer32-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.FixedSizeBuffer4-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.FixedSizeBuffer4-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.FixedSizeBuffer4096-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.FixedSizeBuffer4096-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.FixedSizeBuffer512-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.FixedSizeBuffer512-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.FixedSizeBuffer64-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.FixedSizeBuffer64-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.FixedSizeBuffer8-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.FixedSizeBuffer8-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.FixedSizeBuffer8192-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.FixedSizeBuffer8192-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.FixedSizeBufferExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.FixedSizeBufferExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.IFixedSizeBuffer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.IFixedSizeBuffer-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.SpanAction-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.SpanAction-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.SpanAction-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.SpanAction-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.SpanFunc-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.SpanFunc-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.SpanFunc-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.SpanFunc-3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.WithFixedSizeBuffer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.WithFixedSizeBuffer-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "FixedSizeBuffers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "FixedSizeBuffers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
