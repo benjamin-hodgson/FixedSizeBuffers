@@ -1,6 +1,21 @@
 Changelog
 =========
 
+0.4.2
+-----
+
+* A new build system running on the .NET 8 SDK
+* Better support for trimmed deployment
+* Better support for debugging and SourceLink
+* Documentation improvements
+
+
+0.4.1
+-----
+
+* Multitargeting fixes
+
+
 0.3.0
 -----
 
