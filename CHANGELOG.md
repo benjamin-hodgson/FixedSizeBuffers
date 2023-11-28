@@ -1,7 +1,7 @@
 Changelog
 =========
 
-0.4.2
+0.4.3
 -----
 
 * A new build system running on the .NET 8 SDK
