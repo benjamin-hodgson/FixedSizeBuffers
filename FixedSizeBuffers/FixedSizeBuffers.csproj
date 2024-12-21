@@ -8,9 +8,8 @@
         <NoWarn>$(NoWarn);NETSDK1138</NoWarn>  <!-- NETSDK1138: The target framework 'net5.0' is out of support -->
     </PropertyGroup>
 
-    <PropertyGroup Condition="$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net8.0'))">
+    <PropertyGroup Condition="$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net7.0'))">
         <IsAotCompatible>true</IsAotCompatible>
-        <IsTrimmable>true</IsTrimmable>
     </PropertyGroup>
 
     <ItemGroup>

@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <OutputType>exe</OutputType>
-        <TargetFrameworks>net8.0</TargetFrameworks>
+        <TargetFrameworks>net9.0</TargetFrameworks>
         <IsPackable>false</IsPackable>
         <NoWarn>$(NoWarn);SA0001</NoWarn>
     </PropertyGroup>
