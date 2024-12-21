@@ -4,6 +4,7 @@
         <TargetFramework>net9.0</TargetFramework>
         <IsPackable>false</IsPackable>
         <NoWarn>$(NoWarn);CS1591</NoWarn>
+        <NoWarn>$(NoWarn);CA1515</NoWarn>  <!-- "Because an application's API isn't typically referenced from outside the assembly, types can be made internal" -->
     </PropertyGroup>
 
     <ItemGroup>
