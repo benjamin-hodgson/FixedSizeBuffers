@@ -1,6 +1,10 @@
 `FixedSizeBuffers`
 ==================
 
+**DEPRECATED**: This library is no longer recommended. Since .NET 8, you can use [inline arrays](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-12.0/inline-arrays) which serve the same purpose as this library but are officially supported by the runtime and guaranteed to work across all platforms.
+
+------------------
+
 A collection of fixed-size structs which can be treated as `Span`s. A replacement for `stackalloc` (or `fixed`-size buffers), but these buffers can contain reference types (and can't be dynamically sized).
 
 ```csharp
