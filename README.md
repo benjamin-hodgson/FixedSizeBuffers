@@ -1,7 +1,8 @@
 `FixedSizeBuffers`
 ==================
 
-**DEPRECATED**: This library is no longer recommended. Since .NET 8, you can use [inline arrays](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-12.0/inline-arrays) which serve the same purpose as this library but are officially supported by the runtime and guaranteed to work across all platforms.
+> [!WARNING]
+> **DEPRECATED**: This library is no longer recommended. Since .NET 8, you can use [inline arrays](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-12.0/inline-arrays) which serve the same purpose as this library but are officially supported by the runtime and guaranteed to work across all platforms.
 
 ------------------
 
